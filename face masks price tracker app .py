@@ -54,7 +54,7 @@ def send_mail():
 
     server.quit()
 
-#The amout of time (in seconds) which our app checks for the price 
+#The amout of time (in seconds) which our app checks for the price every day
 while(True):
     check_price()
     time.sleep(3600)
